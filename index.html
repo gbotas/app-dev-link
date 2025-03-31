@@ -2,6 +2,8 @@
 <html>
   <head>
     <meta charset= "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 
     <title> Gonzalo Botas' links</title>
 
@@ -45,7 +47,38 @@
 
       .link {
         background-color: rgba(122,117,206,0.4);
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
       }
+
+      .main-container {
+        max-width:640px;
+        margin: auto;
+      }
+
+      .image-row {
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .name-row {
+        margin-bottom:30px;
+        text-align: center;
+      }
+
+      .social-icons-row {
+        margin-bottom:30px;
+        display:flex;
+        justify-content: space-around;
+      }
+
+      .link-text {
+        text-align: center;
+        flex-grow: 1;
+      }
+
+    
 
 
     </style>
@@ -54,7 +87,7 @@
 
 
   <body>
-    <div class="main-container"; style="text-align:center">
+    <div class="main-container";>
 
       <div class= "image-row">
         <img class="avatar-image" src="/thumbnails/Profile pic.jpeg" alt="Gonzalo Botas profile picture">
@@ -94,7 +127,7 @@
           <div class="link">
             <img class="thumbnail" src="/thumbnails/Silicon continent.jpg" alt="Silicon Continent logo">
 
-            <a href="https://www.siliconcontinent.com/" target= "_blank"> 
+            <a class= "link-text" href="https://www.siliconcontinent.com/" target= "_blank"> 
               Silicon Continent
             </a>
           </div>
@@ -102,7 +135,7 @@
           <div class="link">
             <img class="thumbnail" src="/thumbnails/globaltradealert.png" alt="Global Trade logo">
 
-            <a href= "https://globaltradealert.org/" target="_blank">
+            <a class= "link-text" href= "https://globaltradealert.org/" target="_blank">
               Global Trade Alert
             </a>
           </div>
@@ -110,7 +143,7 @@
           <div class="link">
             <img class="thumbnail" src="/thumbnails/cabecera.jpeg" alt="Nada es Gratis logo">
 
-            <a href= "https://nadaesgratis.es/" target="_blank">
+            <a class= "link-text" href= "https://nadaesgratis.es/" target="_blank">
               Nada es Gratis
             </a>
 
@@ -119,7 +152,7 @@
           <div class="link">
             <img class="thumbnail" src="/thumbnails/MR-logo-thumbnail.png" alt="Marginal Revolution logo">
 
-            <a href= "https://marginalrevolution.com/" target="_blank">
+            <a class= "link-text" href= "https://marginalrevolution.com/" target="_blank">
               Marginal Revolution
             </a>
           </div>
@@ -127,7 +160,7 @@
           <div class="link">
             <img class="thumbnail" src="/thumbnails/logo_espana_menu.avif" alt="Espana logo">
 
-            <a href= "https://www.spain.info/es/" target="_blank">
+            <a class= "link-text" href= "https://www.spain.info/es/" target="_blank">
               Visit Spain
             </a>
           </div>
@@ -135,7 +168,7 @@
           <div class="link">
             <img class="thumbnail" src="/thumbnails/maxresdefault.jpg" alt="Abbey Road image">
 
-            <a href="https://www.youtube.com/watch?v=GKdl-GCsNJ0" target="_blank">
+            <a class= "link-text" href="https://www.youtube.com/watch?v=GKdl-GCsNJ0" target="_blank">
               Here Comes the Sun
             </a>
           </div>
